@@ -13,7 +13,7 @@ function App() {
       <MainHeader />
       <main>
         {!ctx.isLoggedIn && <Login />}
-        {ctx.sLoggedIn && <Home />}
+        {ctx.isLoggedIn && <Home />}
       </main>
     </>
   )
